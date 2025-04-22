@@ -2,7 +2,7 @@
 A simple program that plays Bad Apple in your terminal
 
 ## Running The Program
-Ensure you distro is up to date and you have cmake installed
+Ensure you distro is up to date and you have cmake installed:
 `sudo apt update && sudo apt install -y cmake`
 
 Install OpenCV:
