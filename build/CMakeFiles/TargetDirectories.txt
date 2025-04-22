@@ -1,0 +1,3 @@
+/home/marcos/workspace/BadApplePlayer/build/CMakeFiles/OpenCVTest.dir
+/home/marcos/workspace/BadApplePlayer/build/CMakeFiles/edit_cache.dir
+/home/marcos/workspace/BadApplePlayer/build/CMakeFiles/rebuild_cache.dir
