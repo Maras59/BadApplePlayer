@@ -10,10 +10,12 @@ Install OpenCV:
 
 `sudo apt install libopencv-dev`
 
-Create a `build` directory if one does not exist. Inside of the build directory run the following commands:
+Inside of the base directory run the following commands:
 ~~~
+mkdir build
+cd build
 cmake .. 
 make
 ~~~
 
-You can now run `./OpenCVTest`
+You can now run the `./BadApple` binary inside the `build` directory
