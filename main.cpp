@@ -28,10 +28,10 @@ int main(){
     noecho();
     cbreak();
     curs_set(0);
+    nodelay(stdscr, TRUE);
 
     WINDOW *win = newwin(LINES - 2, COLS - 2, 1, 1);
 
-    // Get video aspect ratio from first frame
     int width = static_cast<int>(cap.get(CAP_PROP_FRAME_WIDTH));
     int height = static_cast<int>(cap.get(CAP_PROP_FRAME_HEIGHT));
 
@@ -75,7 +75,6 @@ int main(){
     
         refresh();
 
-        nodelay(stdscr, TRUE);
         if (getch() == 'q') break;
     }
     
