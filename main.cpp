@@ -1,5 +1,4 @@
 #include <opencv2/opencv.hpp>
-// #include <opencv4/opencv2/core/hal/interface.h>
 #include <iostream>
 #include <ncurses.h>
 #include <vector>
