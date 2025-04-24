@@ -6,7 +6,7 @@ Ensure you distro is up to date. You may need OpenCV, ncurses, and cmake install
 ~~~
 sudo apt install libopencv-dev
 sudo apt install cmake
-sudo apt-get install libncurses-dev
+sudo apt install libncurses-dev
 ~~~
 
 Inside of the base directory run the following commands:
