@@ -1,8 +1,8 @@
 # BadApplePlayer
-A simple program that plays Bad Apple in your Linux terminal, currently only tested in ubuntu
+Play Bad Apple in your terminal! Depends on OpenCV and ncurses, written in C++. Currently only tested in Ubuntu but feel free to try it anywhere, it is built with cmake after all.
 
-## Running The Program
-Ensure you distro is up to date. You will need OpenCV, ncurses, and cmake installed:
+## Running in Ubuntu
+Ensure you distro is up to date. You may need OpenCV, ncurses, and cmake installed:
 ~~~
 sudo apt install libopencv-dev
 sudo apt install cmake
